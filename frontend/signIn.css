@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+video{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+    -webkit-filter:blur(8px);
+}
+.login{
+    width: 360px;
+    height: min-content;
+    padding: 20px;
+    border-radius: 12px;
+    background: transparent;
+}
+.login h1{
+    font-size: 36px;
+    margin-bottom: 25px;
+}
+/* .login form{
+    font-size: 20px;
+} */
+.login form .box{
+    margin-bottom: 12px;
+}
+.login form input[type="sumbit"]{
+    font-size: 20px;
+
+    margin-top: 15px;
+}
+.btn1{
+    padding-top: 20px;
+    margin-bottom: 20px;
+}
+.btn2{
+    padding-top: 20px;
+    margin-top: 20px;
+}
+a{
+    color: cyan;
+}
+h1{
+    color: white;
+    margin-bottom: px;
+    border-bottom: 2px solid white;
+    padding: 10px 5px;
+}
+.login form input[type="email"]{
+    background-image: url('/frontend/image/mail_FILL0_wght400_GRAD0_opsz48.png');
+    background-repeat: no-repeat;
+    position: relative;
+    padding-left: 50px;
+    background-size: 2.2rem;
+    border-radius: 8px;
+    margin-left: 1rem;
+}
+.login form input[type="password"]{
+    background-image: url('/frontend/image/lock_FILL0_wght400_GRAD0_opsz48.png');
+    background-repeat: no-repeat;
+    position: relative;
+    padding-left: 50px;
+    background-size: 2.2rem;
+    border-radius: 8px;
+    margin-left: 1rem;
+}
+.box{
+    margin-bottom: 12px;
+    padding: 10px 5px;
+}
