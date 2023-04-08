@@ -1,0 +1,39 @@
+body{
+    background-color: black;
+}
+.main{
+    color: wheat;
+}
+.header{
+     display: flex;
+     margin-left: auto;
+     flex-direction: row;
+     
+}
+.search{
+     
+    margin-left: 40%;
+}
+.account{
+    margin-left: 43%;
+    align-items: flex-end;
+    /* padding-left: ; */
+    border-radius: 50%;
+    background-color: white;  
+}
+.userImage{
+    width: 17%;
+    height: 6%;
+}
+#searchImage{
+    border-radius: 20%;
+    width: 120%;
+    height: 60%;
+     background-image: url('./image/baseline_search_black_24dp.png');
+     position: relative;
+     padding-left: 35px;
+     background-size: 30px;
+     background-repeat: no-repeat;
+     border-radius: 8px;
+     color: black;
+}
