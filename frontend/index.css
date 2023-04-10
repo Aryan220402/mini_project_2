@@ -1,5 +1,6 @@
 body{
     background-color: black;
+    
 }
 .main{
     color: wheat;
@@ -36,4 +37,162 @@ body{
      background-repeat: no-repeat;
      border-radius: 8px;
      color: black;
+}
+.Side_Bar_Element{
+    background-color: black;
+    height: 44.2rem;
+    width: 18rem;
+    margin-right: 2rem;
+    color: rgb(215, 213, 213);
+}
+.Music_Player{
+    position: relative;
+    background-color: rgb(31, 30, 30);
+    height: 4.7rem;
+}
+.middle{
+    display: flex;
+    flex-direction: row; 
+}
+.SongPlace{
+    background-color: rgb(0, 0, 0);
+    height: 44.2rem;
+    width: 95rem;
+    color: rgb(215, 215, 215);
+    overflow-y: auto;
+    scrollbar-width: none;
+}
+.SongPlace::-webkit-scrollbar{
+    display: none;
+}
+.HomeDiv{
+    margin-top: 5px;
+    font-size: 2rem;
+    background-image: url('/frontend/image/baseline_home_white_24dp.png');
+    background-repeat: no-repeat;
+    position: relative;
+    padding-left: 35px;
+    background-size: 2.2rem;
+    border-radius: 8px;
+    margin-left: 1rem;
+   margin-top: 1rem;
+   transition: all 0.3s ease;
+}
+.HomeDiv:hover{
+    transform: scale(1.1);
+}
+.SearchDiv{
+    margin-top: 5px;
+    font-size: 2rem;
+    background-image: url('/frontend/image/outline_search_white_24dp.png');
+    background-repeat: no-repeat;
+    position: relative;
+    padding-left: 35px;
+    background-size: 2.2rem;
+    border-radius: 8px;
+    margin-left: 1rem;
+    margin-top: 1rem;
+    transition: all 0.3s ease;
+}
+.SearchDiv:hover{
+    transform: scale(1.1);
+}
+.CreatePlaylist{
+    margin-top: 5px;
+    font-size: 1.6rem;
+    background-image: url('/frontend/image/outline_library_music_white_24dp.png');
+    background-repeat: no-repeat;
+    position: relative;
+    padding-left: 35px;
+    background-size: 2.2rem;
+    border-radius: 8px;
+    margin-left: 1rem;
+    margin-top: 1rem;
+    transition: all 0.3s ease;
+}
+.CreatePlaylist:hover{
+    transform: scale(1.1);
+}
+.LikedSong{
+    margin-top: 5px;
+    font-size: 1.6rem;
+    background-image: url('/frontend/image/outline_favorite_border_white_24dp.png');
+    background-repeat: no-repeat;
+    position: relative;
+    padding-left: 35px;
+    background-size: 2.2rem;
+    border-radius: 8px;
+    margin-left: 1rem;
+    margin-top: 1rem;
+    transition: all 0.3s ease;
+}
+.LikedSong:hover{
+    transform: scale(1.1);
+}
+.ResentSong{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    /* margin-left: 0.6rem; */
+    /* border: 0.3rem solid red; */
+    align-items: center;
+    margin-left: 0.4rem;
+    margin-right: 0.3rem;
+    border-radius: 0.3rem;
+    margin-bottom: 1rem;
+    transition: all 0.3s ease;
+}
+.ResentSong:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+}
+.SongImage{
+    background-color: aqua;
+    height: 3rem;
+    width: 3rem;
+    margin-left: 0.3rem;
+    margin-right: 0.5rem;
+}
+.ResentSongMain{
+    margin-bottom: 1.9rem;   
+}
+.SingerDetail{
+margin-left: 4rem;
+display: flex;
+flex-direction: row;
+overflow-y: auto;
+}
+.SingerDetail::-webkit-scrollbar{
+    display: none
+}
+.SingerImage{
+    margin-left: 3rem;    
+}
+#SingerImage{
+    border-radius: 50%;
+    width: 13.5rem;
+    height: 13.5rem;
+    transition: all 0.3s ease;
+}
+#SingerImage:hover{
+    transform: scale(1.05);
+     background-image: url('./image/user.png');
+     
+}
+.singeIn{
+ color: brown;
+ padding-left: 1.3rem;
+ font-size: 1.5rem;
+}
+#Name{
+    margin-left: 6rem;
+    margin-top: 6rem;
+}
+#music_singer_img{
+    width: 5rem;
+    height: 3.5rem;
+    margin-top: 0.5rem;
+}
+.MusicMain{
+    margin-top: 1rem;
 }
