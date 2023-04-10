@@ -15,7 +15,7 @@
 </head>
 
 <body>
-    <video id="myvideo" src="/frontend/image/ms3.mp4" loop muted autoplay type="video/mp4"></video>
+    <video id="myvideo" src="/frontend/image/ms3.mp4" loop muted autoplay type="video/mp4" ></video>
     <div class="login">
         <h1 class="text-center">SignUp</h1>
         <form action="#">
@@ -40,5 +40,8 @@
         </form>
     </div>
 </body>
-
+<script>
+    var abhay = document.getElementById("myvideo");
+    abhay.playbackRate = 0.5;
+</script>
 </html>
