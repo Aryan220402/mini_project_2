@@ -191,8 +191,60 @@ overflow-y: auto;
 #music_singer_img{
     width: 5rem;
     height: 3.5rem;
-    margin-top: 0.5rem;
+    margin-top: 0.7rem;
+    margin-left: 27rem;
+    
 }
 .MusicMain{
+     display: flex;
+     flex-direction: row;
+}
+#previous{
+    height: 3rem;
+    width: 3rem;
     margin-top: 1rem;
+}
+#play{
+    height: 3rem;
+    width: 3rem;
+    margin-top: 1rem;
+}
+#next{
+    height: 3rem;
+    width: 3rem;
+    margin-top: 1rem;
+}
+#down{
+    height: 2.8rem;
+    width: 3rem;
+ margin-left: 2rem;
+    margin-top: 1rem;
+    
+}
+#up{
+    height: 2.8rem;
+    width: 3rem;
+    margin-top: 1rem;
+    margin-left: 2rem;
+}
+#volume{
+    height: 3rem;
+    width: 3rem;
+    margin-top: 1rem;
+    margin-left: 3rem;
+}
+h4{
+    margin-top: 3rem;
+}
+#dot{
+    height: 3rem;
+    width: 3rem;
+    margin-top: 1rem;
+    margin-left: 3rem;
+    
+}
+#volume-slider{
+    margin-left: 23rem;
+    margin-top: -0.5rem;
+    
 }
