@@ -1,15 +1,111 @@
 body{
     background-color: black;
+}
+.ma{
+    display: flex;
+    flex-direction: row;
+}
+.playMain{
+overflow-y: auto;
+
+}
+.middle{
+    
+    overflow-y: auto;
+    scrollbar-width: none;
+    background-color: rgb(0, 0, 0);
+/* width: 300rem;
+height:fit-content; */
+margin-left: 3rem ;
+margin-top: 5rem;
+display: flex;
+flex-direction: column;
+}
+.playmain::-webkit-scrollbar{
+    display: none;
+}
+.ProfilPhoto{
+    width:  14rem;
+    height:  14rem;
+    border: 0.5rem solid red;
+    box-shadow: 2px 2px 2px white;
+    display: flex;
+    flex-direction: row;
+    color: white;
     
 }
-.main{
-    color: wheat;
+
+img{
+    width: 14rem;
+    height: 14rem;
+    
+}
+#PlayListName{
+    font-size: 4rem;
+    margin-left:6rem;
+    
+}
+.song{
+    /* font-size: 6rem; */
+   
+}
+#Songtimer{
+font-size: 4rem;    
+color: white;
+}
+.playbutton{
+    width: 4rem;
+    height: 4rem;
+    background-color:rgb(22, 223, 22);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+}
+#PlayButton{
+    width: 3rem;
+    height: 3rem;
+}
+.title{
+    display: flex;
+    flex-direction: row;
+}
+h5{
+    font-size: 1.5rem;
+    margin-right: 18rem;
+    margin-top: 1rem;
+}
+#timeImage{
+    width: 1.6rem;
+    height: 1.6rem;
+    margin-top: 1.4rem;
+    /* margin-left: 2rem; */
+}
+hr{
+    margin-top: -1rem;
+    margin-right: 5rem;
+}
+h6{
+    font-size: 1rem;
+}
+#SongPhotoCard{
+    width: 3rem;
+    height: 3rem;
+    margin-left: 2rem;
+    margin-top: 1rem;
+}
+.songCard{
+    display: flex;
+    flex-direction: row;
+}
+#h5{
+    margin-left: 18rem;
 }
 .header{
-     display: flex;
-     margin-left: auto;
-     flex-direction: row;
-     
+    display: flex;
+    margin-left: auto;
+    flex-direction: row;
+    
 }
 .search{
      
@@ -22,6 +118,7 @@ body{
     border-radius: 50%;
     background-color: white;  
 }
+
 .userImage{
     width: 3rem;
     height: 3rem;
@@ -53,26 +150,6 @@ body{
     width: 18rem;
     margin-right: 2rem;
     color: rgb(215, 213, 213);
-}
-.Music_Player{
-    position: relative;
-    background-color: rgb(31, 30, 30);
-    height: 4.7rem;
-}
-.middle{
-    display: flex;
-    flex-direction: row; 
-}
-.SongPlace{
-    background-color: rgb(0, 0, 0);
-    height: 44.2rem;
-    width: 95rem;
-    color: rgb(215, 215, 215);
-    overflow-y: auto;
-    scrollbar-width: none;
-}
-.SongPlace::-webkit-scrollbar{
-    display: none;
 }
 .HomeDiv{
     margin-top: 5px;
@@ -155,6 +232,9 @@ body{
     transform: scale(1.05);
     cursor: pointer;
 }
+.ResentSongMain{
+    margin-bottom: 1.9rem;   
+}
 .SongImage{
     background-color: aqua;
     height: 3rem;
@@ -162,40 +242,9 @@ body{
     margin-left: 0.3rem;
     margin-right: 0.5rem;
 }
-.ResentSongMain{
-    margin-bottom: 1.9rem;   
-}
-.SingerDetail{
-margin-left: 4rem;
-display: flex;
-flex-direction: row;
-overflow-y: auto;
-}
-.SingerDetail::-webkit-scrollbar{
-    display: none
-}
-.SingerImage{
-    margin-left: 3rem;    
-}
-#SingerImage{
-    border-radius: 50%;
-    width: 13.5rem;
-    height: 13.5rem;
-    transition: all 0.3s ease;
-}
-#SingerImage:hover{
-    transform: scale(1.05);
-     background-image: url('./image/user.png');
-     
-}
-.singeIn{
- color: brown;
- padding-left: 1.3rem;
- font-size: 1.5rem;
-}
-#Name{
-    margin-left: 6rem;
-    margin-top: 6rem;
+a{
+    text-decoration: none;
+    color: rgb(193, 193, 193);
 }
 #music_singer_img{
     width: 5rem;
@@ -204,15 +253,21 @@ overflow-y: auto;
     margin-left: 27rem;
     
 }
+.Music_Player{
+    position: relative;
+    background-color: rgb(31, 30, 30);
+    height: 4.7rem;
+}
 .MusicMain{
      display: flex;
      flex-direction: row;
+     position: relative;
 }
 #previous{
     height: 3rem;
     width: 3rem;
-    margin-top: 1rem;
-    margin-left: 2rem;
+    margin-top: 1rem;   
+        margin-left: 2rem;
 }
 #play{
     height: 3rem;
@@ -245,6 +300,7 @@ overflow-y: auto;
 }
 h4{
     margin-top: 3rem;
+    color: white;
 }
 #dot{
     height: 3rem;
@@ -257,8 +313,4 @@ h4{
     margin-left: 23rem;
     margin-top: -0.7rem;
     
-}
-a{
-    text-decoration: none;
-    color: rgb(193, 193, 193);
 }
