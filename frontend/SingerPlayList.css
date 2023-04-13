@@ -7,6 +7,8 @@ body{
 }
 .playMain{
 overflow-y: auto;
+display: flex;
+flex-direction: row;
 
 }
 .middle{
@@ -31,14 +33,11 @@ flex-direction: column;
     box-shadow: 2px 2px 2px white;
     display: flex;
     flex-direction: row;
-    color: white;
-    
+    color: white;   
 }
-
 img{
     width: 14rem;
-    height: 14rem;
-    
+    height: 14rem;  
 }
 #PlayListName{
     font-size: 4rem;
@@ -47,6 +46,7 @@ img{
 }
 .song{
     /* font-size: 6rem; */
+    overflow-y: auto;
    
 }
 #Songtimer{
@@ -82,8 +82,8 @@ h5{
     /* margin-left: 2rem; */
 }
 hr{
-    margin-top: -1rem;
-    margin-right: 5rem;
+    margin-top: -1.5rem;
+    /* margin-right: 3rem; */
 }
 h6{
     font-size: 1rem;
@@ -311,6 +311,9 @@ h4{
 }
 #volume-slider{
     margin-left: 23rem;
-    margin-top: -0.7rem;
-    
+    margin-top: -0.7rem;  
+}
+#resentSongImage{
+    width: 3rem;
+    height: 3rem;
 }
