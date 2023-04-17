@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Home Page</title>
     <link rel="stylesheet" href="index.css">
 </head>
 <body>
@@ -16,23 +16,29 @@
         </div>
         <div class="account">
             <div class="userImage">
-                <img src="./image/user.png" alt="">
+                <img src="./image/user.png"  id="userImage"alt="">
             </div>
         </div>
     </div>
     <div class="middle">
         <div class="Side_Bar_Element">
             <div class="HomeDiv">
-                home
+                <a href="index.html">Home</a>
             </div>
             <div class="SearchDiv">
-               Search
+               <a href="SearchSong.html">Search</a>
             </div>
             <div class="CreatePlaylist">
-                Create Playlist
+                <a href="CreatePlayList.html"> 
+
+                    Create Playlist
+                </a>
             </div>
             <div class="LikedSong">
-                Liked Song
+                <a href="LikedSong.html">
+                     
+                    Liked Song
+                </a>
             </div>
             
             <div >
@@ -71,9 +77,21 @@
             <div class="SingerDetail">
                
                 <div class="SingerImage">
-                    <img id ="SingerImage" src="./image/neha.png" alt="">
+                    <a href="SingerPlayList.html">
+
+                        <img id ="SingerImage" src="./image/neha.png" alt="">
+                    </a>
                     <div class="singeIn">
-                        Singer name
+                        <a href="SingerPlayList.html"> Singer Name</a>
+                    </div> 
+                </div>
+                <div class="SingerImage">
+                    <a href="singerSongList.html">
+
+                        <img id ="SingerImage" src="./image/neha.png" alt="">
+                    </a>
+                    <div class="singeIn">
+                        <a href="singerSongList.html"> Singer Name</a>
                     </div> 
                 </div>
                 <div class="SingerImage">
@@ -167,16 +185,25 @@
             <img id= "previous" src="./image/baseline_skip_previous_white_24dp.png" alt="">
             <img id= "play" src="./image/baseline_play_arrow_white_24dp.png" alt="">
             <img id= "next" src="./image/baseline_skip_next_white_24dp.png" alt="">
-            time
+            <h4> time</h4>
             <img id="music_singer_img" src="./image/neha.png" alt="">
-            song name
+             <h4>Song Name</h4>
             <img id= "down" src="./image/baseline_thumb_down_white_24dp.png" alt="">
             <img  id= "up" src="./image/baseline_thumb_up_white_24dp.png" alt="">
+            
+            <input type="range" id="volume-slider">
             <img id= "volume" src="./image/outline_volume_up_white_24dp.png" alt="">
+            <img id="dot" src="./image/outline_more_vert_white_24dp.png" alt="">
         </div>
         
     </div>
 
    </div>
 </body>
+<script>
+    let volume = document.getElementById('volume-slider');
+volume.addEventListener("change", function(e) {
+    audio.volume = e.currentTarget.value / 100;
+})
+</script>
 </html>

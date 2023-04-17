@@ -1,0 +1,86 @@
+.SongPlayList1{
+    height: 44.2rem;
+    width: 95rem;
+     
+    overflow-y: auto;
+    scrollbar-width: none;
+}
+.ProfilPhoto{
+    width:  14rem;
+    height:  14rem;
+    border: 0.5rem solid red;
+    box-shadow: 2px 2px 2px white;
+    display: flex;
+    flex-direction: row;
+    color: white;   
+    margin-top: 3rem;  
+    margin-left: 2rem;   
+}
+.SongPlayList1::-webkit-scrollbar{
+    display: none;
+}
+img{
+    width: 14rem;
+    height: 14rem;  
+}
+#PlayListName{
+    font-size: 4rem;
+    margin-left:6rem;
+}
+ 
+#Songtimer{
+    font-size: 4rem;    
+    color: white;
+    }
+.playbutton{
+    width: 4rem;
+    height: 4rem;
+    background-color:rgb(22, 223, 22);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+}
+#PlayButton{
+    width: 3rem;
+    height: 3rem;
+}
+.title{
+    display: flex;
+    flex-direction: row;
+}
+h5{
+    font-size: 1.5rem;
+    margin-right: 18rem;
+    margin-top: 1rem;
+}
+#timeImage{
+    width: 1.6rem;
+    height: 1.6rem;
+    margin-top: 1.4rem;
+    /* margin-left: 2rem; */
+}
+hr{
+    margin-top: -1.5rem;
+    margin-right: 5rem;
+}
+h6{
+    font-size: 1rem;
+}
+#SongPhotoCard{
+    width: 3rem;
+    height: 3rem;
+    margin-left: 2rem;
+    margin-top: 1rem;
+}
+.songCard{
+    display: flex;
+    flex-direction: row;
+}
+#h5{
+    margin-left: 18rem;
+}
+.middle{
+    display: flex;
+    flex-direction: row;
+}
